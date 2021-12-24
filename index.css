@@ -1,24 +1,44 @@
 body
 {
-  font-family : "Trebuchet MS", sans-serif;
+  font-family : system-ui, sans-serif;
 }
 
-h1
+p
+{
+  font-weight: 550;
+}
+
+/*h1
 {
   font-family : Verdana, sans-serif;
   text-align : center;
-}
+}*/
 
-#desk
+/*.tombol
 {
+  font-family : sans-serif;
+  border-radius : 25px;
+  background : #000000;
+  color : #ffffff;
+  width : 100px;
+  height : 40px;
+  display : block grid;
   text-align : center;
-}
+  text-decoration : none;
+  vertical-align : middle;
+  padding-top : 0px;
+  padding-bottom : 0px;
+  margin-top : 10px;
+}*/
 
 .tombol
 {
-  font-family : "Avenir Next W01";
-  border-radius : 25px;
-  background : #73AD21;
-  width : 100px;
-  height : 50px;
+  background-color: #000000;
+  border-radius: 25px;
+  color: #ffffff;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
 }
